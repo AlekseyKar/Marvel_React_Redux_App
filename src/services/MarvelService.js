@@ -1,6 +1,5 @@
 class MarvelService {
   _apiBase = 'https://gateway.marvel.com:443/v1/public/';
-  // ЭТОТ КЛЮЧ МОЖЕТ НЕ РАБОТАТЬ
   _apiKey = '34ba8e78caaef91cb9ffd90b341cb8b1';
 
     getResource = async (url) => {
